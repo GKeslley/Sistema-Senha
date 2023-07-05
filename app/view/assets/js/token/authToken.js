@@ -63,7 +63,6 @@ const updateEmail = (email, id_usuario) => {
 };
 
 const requestUpdateEmail = async (emailValue, id_usuario) => {
-  console.log(value);
   try {
     const response = await fetch('http://localhost/Sistema-Senha/login/atualizar/email', {
       method: 'PUT',
